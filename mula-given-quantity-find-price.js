@@ -10,8 +10,8 @@ function mulaPrice(kgQuantity){
         return "Please entere a less than 10 quantity"; 
     }
     let price = 0;
-    if(kgQuantity <= 2){
-        price = kgQuantity * 30;
+    if(kgQuantity <= 2){//100
+        price = kgQuantity * 30;//5000
     }
     else{
         price = kgQuantity * 25;
